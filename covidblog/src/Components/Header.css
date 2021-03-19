@@ -1,0 +1,135 @@
+.header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  align-items: center;
+
+  /* box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75); */
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__left > img {
+  height: 70px;
+  align-items: center;
+}
+
+.header__input {
+  display: flex;
+  width: 20%;
+  height: 13%;
+  margin-bottom: 10px;
+  align-items: center;
+  align-content: center;
+  border-radius: 999px;
+  background-color: #eff2f5;
+  padding: 5px;
+  padding-left: 10px;
+
+  margin-left: 80px;
+}
+
+.header__input > input {
+  border: none;
+
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.header__center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header__option > h2 {
+  font-size: 19px;
+  color: grey;
+  text-decoration: none;
+}
+.header__option > h2:hover {
+  color: #2e81f4;
+  opacity: 2;
+  transform: scale(1.1);
+}
+
+/* .header__option--active {
+  border-bottom: 2px solid #2e81f4;
+} */
+
+.header__info {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.header__info > button {
+  margin-bottom: 2px;
+  /* margin-top: ; */
+  margin-left: 45px;
+  color: grey;
+  /* align-items: center; */
+  font-size: 16px;
+  background-color: #f4f5f7;
+  border-radius: 80px;
+}
+
+.header__info > button:hover {
+  background-color: white;
+  color: #2e81f4;
+  opacity: 3;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.header__info > h4 {
+  margin-left: 10px;
+}
+
+.header__right {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+margin-left: -50%;
+  color: grey;
+  margin-right: 90px;
+}
+.signin > button {
+  /* margin-top: 5px; */
+  align-items: center;
+  /* text-size-adjust: 19px; */
+  color: grey;
+  font-size: 19px;
+  background-color: #f4f5f7;
+  border-radius: 100px;
+  margin: 10px;
+  /* text-transform: inherit; */
+}
+
+.signin > button:hover {
+  background-color: white;
+  color: #2e81f4;
+  opacity: 3;
+  transform: scale(1);
+  cursor: pointer;
+}

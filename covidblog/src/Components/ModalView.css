@@ -1,0 +1,126 @@
+.modal {
+  margin-top: 12%;
+  align-items: center;
+   margin-left: 3%; 
+}
+.modal_one {
+  padding: 220px;
+  margin-top: 10%;
+  margin-left: 5%;
+
+  background-image: url('https://www.humachallenge.com/croppedImages/Logos/COVID-Safe-Badge-679891-500px.jpg');
+  background-color: white;
+  background-repeat: no-repeat;
+  /* background-color:; */
+  height: 40%;
+  width: 90%;
+  border-radius: 10px;
+  background-position: 250px 55px;
+  background-size: 28%;
+}
+.modal > button {
+  /* position: absolute; */
+outline: none;
+  align-items: center;
+  border: white;
+  background-color: white;
+  margin-top: -33px;
+  padding: 8px;
+  font-size: 19px;
+  color: grey;
+  border-radius: 20px;
+  cursor: pointer;
+  /* transition: transform 50ms ease-in; */
+}
+
+.modal > button:hover {
+  color: #2e81f4;
+  opacity: 2;
+  transform: scale(1.1);
+  outline: none;
+}
+.btn {
+    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+}
+.btn > button {
+  /* margin-top: 5%;
+  margin-left: 50%; */
+  border-radius: 10px;
+  background-color: white;
+  color: white;
+  align-items: center;
+}
+.modal_one > h2 {
+  text-align: center;
+}
+
+.modal_one > p {
+  text-align: center;
+}
+.login {
+  margin-top: -25%;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__container {
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login__container > p {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  background: #2e81f4;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  color:white
+  /* border-color: #a88734 #9c7e31 #846a29c5; */
+}
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 4px;
+  border-color: darkgray;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  object-fit: contain;
+}
